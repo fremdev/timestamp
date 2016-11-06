@@ -1,10 +1,14 @@
 {
   "name": "timestamp",
   "version": "1.0.0",
-  "description": "\u0016Timestamp microservice",
+  "description": "Timestamp microservice",
   "main": "index.js",
   "scripts": {
+    "start": "node server/server.js",
     "test": "mocha **/*.test.js"
+  },
+  "engines": {
+    "node": "6.9.1"
   },
   "keywords": [
     "timestamp",
